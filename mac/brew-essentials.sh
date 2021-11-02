@@ -36,6 +36,8 @@ brew install tower
 brew install visual-studio-code
 brew install whatsapp
 brew install zoom
+brew install netnewswire
+brew install telegram
 
 # Restore plists of apps
 mackup restore

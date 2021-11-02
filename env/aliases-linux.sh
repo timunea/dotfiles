@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Shortcuts
-alias cdrive="/mnt/c/Users/zellw"
+alias cdrive="/Users/tim"
 alias c="$cdrive"
 alias d="cd $cdrive/Dropbox"
 alias dl="cd $cdrive/Downloads"
