@@ -17,8 +17,6 @@ plugins=(
   zsh-syntax-highlighting
 )
 
-
-
 source $ZSH/oh-my-zsh.sh
 
 unameOut="$(uname -s)"
@@ -46,3 +44,15 @@ elif [[ "$MACHINE" == "Mac" ]]; then
   source "$PROJECT_ROOT/env/exports.sh"
   source "$PROJECT_ROOT/env/functions.sh"
 fi
+
+export PATH="/opt/homebrew/opt/openssl@3/bin:$PATH"
+export PATH="/opt/homebrew/opt/openssl@3/bin:$PATH"
+
+export LDFLAGS="-L/opt/homebrew/opt/openssl@3/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/openssl@3/include"
+
+export LDFLAGS="-L/opt/homebrew/opt/zlib/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/zlib/include"
+
+export PATH="/Users/tim/.pyenv/bin:$PATH"
+eval "$(pyenv virtualenv-init -)"

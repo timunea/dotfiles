@@ -38,6 +38,9 @@ brew install whatsapp
 brew install zoom
 brew install netnewswire
 brew install telegram
+brew install speedtest-cli
+brew install karabiner-elements
+brew install jumpcut
 
 # Restore plists of apps
 mackup restore
