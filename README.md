@@ -2,7 +2,5 @@
 
 This repository was inspired by [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles) repository. Although I copied many things from him, I also deleted many things to suit my custom installation. Use this at your own risk!
 
-Here are the installation instructions for Mac and Windows (WSL)
-
 - [Mac instructions](mac.md)
 
