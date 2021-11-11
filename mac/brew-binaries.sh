@@ -43,3 +43,8 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install youtube-dl
+
+# Install Terraform
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+terraform -install-autocomplete

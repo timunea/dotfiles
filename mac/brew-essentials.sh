@@ -41,6 +41,8 @@ brew install telegram
 brew install speedtest-cli
 brew install karabiner-elements
 brew install jumpcut
+brew install docker 
+brew install postman
 
 # Restore plists of apps
 mackup restore

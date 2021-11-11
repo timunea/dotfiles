@@ -5,7 +5,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_DISABLE_COMPFIX=true
 
 # Set name of the theme to load.
-ZSH_THEME="avit"
+ZSH_THEME="honukai"
 
 # Plugins
 # plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -56,3 +56,5 @@ export CPPFLAGS="-I/opt/homebrew/opt/zlib/include"
 
 export PATH="/Users/tim/.pyenv/bin:$PATH"
 eval "$(pyenv virtualenv-init -)"
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /opt/homebrew/bin/terraform terraform
