@@ -203,5 +203,7 @@
   insteadOf = "gist:"
 
 [user]
-	email = zellwk@gmail.com
-	name = Zell Liew
+	email = tim@unea.io
+	name = Tim Duckett
+[init]
+	defaultBranch = main
