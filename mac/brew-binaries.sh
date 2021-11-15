@@ -43,6 +43,8 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install youtube-dl
+brew install secretive
+brew install insomnia
 
 # Install Terraform
 brew tap hashicorp/tap

@@ -58,3 +58,6 @@ export PATH="/Users/tim/.pyenv/bin:$PATH"
 eval "$(pyenv virtualenv-init -)"
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
+
+# Secretive Config
+export SSH_AUTH_SOCK=/Users/tim/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
