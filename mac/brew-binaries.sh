@@ -45,6 +45,7 @@ brew install vbindiff
 brew install youtube-dl
 brew install secretive
 brew install insomnia
+brew install gh
 
 # Install Terraform
 brew tap hashicorp/tap
