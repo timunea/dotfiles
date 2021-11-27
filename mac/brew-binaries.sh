@@ -46,6 +46,7 @@ brew install youtube-dl
 brew install secretive
 brew install insomnia
 brew install gh
+brew install minikube
 
 # Install Terraform
 brew tap hashicorp/tap
