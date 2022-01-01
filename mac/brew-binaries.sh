@@ -47,7 +47,8 @@ brew install secretive
 brew install insomnia
 brew install gh
 brew install minikube
-
+brew install aws/tap/copilot-cli
+brew install jq
 # Install Terraform
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
